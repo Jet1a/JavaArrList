@@ -47,23 +47,23 @@ public class LibraryCatalog {
         return resultTitle;
     }
 
-        public List<Book> searchByAuthor (String author){
-            List<Book> resultAuthor = new ArrayList<>();
-            for (Book book : books) {
-                if (book.getAuthor().equalsIgnoreCase(author)) {
-                    resultAuthor.add(book);
-                }
+    public List<Book> searchByAuthor(String author) {
+        List<Book> resultAuthor = new ArrayList<>();
+        for (Book book : books) {
+            if (book.getAuthor().equalsIgnoreCase(author)) {
+                resultAuthor.add(book);
             }
-            if (resultAuthor.isEmpty()) {
-                System.out.println("No books with the title found.");
-            } else {
-                for (Book book : resultAuthor) {
-                    System.out.println("Title: " + book.getTitle());
-                    System.out.println("Author: " + book.getAuthor());
-                    System.out.println("ISBN: " + book.getIsbn());
-                    System.out.println();
-                }
-            }
-            return resultAuthor;
         }
+        if (resultAuthor.isEmpty()) {
+            System.out.println("No books with the title found.");
+        } else {
+            for (Book book : resultAuthor) {
+                System.out.println("Title: " + book.getTitle());
+                System.out.println("Author: " + book.getAuthor());
+                System.out.println("ISBN: " + book.getIsbn());
+                System.out.println();
+            }
+        }
+        return resultAuthor;
     }
+}

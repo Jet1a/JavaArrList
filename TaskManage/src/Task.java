@@ -3,10 +3,14 @@ public class Task {
     private String description;
     private boolean status;
 
-    public Task(int taskId, String description, boolean status) {
+    public Task(int taskId, String description) {
         this.taskId = taskId;
         this.description = description;
-        this.status = status;
+        this.status = false;
+    }
+
+    public boolean getStatus() {
+        return status;
     }
 
     public int getTaskId() {
@@ -24,10 +28,10 @@ public class Task {
     }
 
     public boolean markComplete() {
-        return status == true;
+        return status = true;
     }
 
     public boolean markIncomplete() {
-        return status == false;
+        return status = false;
     }
 }

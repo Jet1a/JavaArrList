@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayListBook/ArrayListBook.iml" filepath="$PROJECT_DIR$/ArrayListBook/ArrayListBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IntJ.iml" filepath="$PROJECT_DIR$/.idea/IntJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InventoryManagement/InventoryManagement.iml" filepath="$PROJECT_DIR$/InventoryManagement/InventoryManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentGrade/StudentGrade.iml" filepath="$PROJECT_DIR$/StudentGrade/StudentGrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentManagement/StudentManagement.iml" filepath="$PROJECT_DIR$/StudentManagement/StudentManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaskManage/TaskManage.iml" filepath="$PROJECT_DIR$/TaskManage/TaskManage.iml" />
     </modules>
   </component>
